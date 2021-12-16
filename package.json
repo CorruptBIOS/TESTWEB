@@ -11,12 +11,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/TCOOfficiall/pbst-handbook"
   },
-  "keywords": [
-    "vuejs",
-    "vuepress",
-    "documentation",
-    "static-site-gen"
-  ],
+  "keywords": ["vuejs", "vuepress", "documentation", "static-site-gen"],
   "author": "Stefano Haagmans <stefano@stefanocoding.me>",
   "license": "DTFYW",
   "bugs": {

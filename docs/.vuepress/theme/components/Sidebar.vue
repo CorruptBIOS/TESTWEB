@@ -1,23 +1,23 @@
 <template>
   <aside class="sidebar">
-    <NavLinks/>
-    <slot name="top"/>
-    <SidebarLinks :depth="0" :items="items"/>
-    <slot name="bottom"/>
+    <NavLinks />
+    <slot name="top" />
+    <SidebarLinks :depth="0" :items="items" />
+    <slot name="bottom" />
   </aside>
 </template>
 
 <script>
-import SidebarLinks from '@theme/components/SidebarLinks.vue'
-import NavLinks from '@theme/components/NavLinks.vue'
+import SidebarLinks from '@theme/components/SidebarLinks.vue';
+import NavLinks from '@theme/components/NavLinks.vue';
 
 export default {
   name: 'Sidebar',
 
   components: { SidebarLinks, NavLinks },
 
-  props: ['items']
-}
+  props: ['items'],
+};
 </script>
 
 <style lang="stylus">
@@ -32,7 +32,7 @@ export default {
     display none
     border-bottom 1px solid $borderColor
     padding 0.5rem 0 0.75rem 0
-    
+
     a
       font-weight 600
     .nav-item, .repo-link

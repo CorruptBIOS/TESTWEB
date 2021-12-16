@@ -1,14 +1,14 @@
-module.exports = [{
+module.exports = [
+  {
     text: 'Home',
-    link: '/'
-},
-{
+    link: '/',
+  },
+  {
     text: 'PBST Handbook',
-    link: '/pbst/'
-},
-{
+    link: '/pbst/',
+  },
+  {
     text: 'Credits',
-    link: '/credits/'
-}
-
-]
+    link: '/credits/',
+  },
+];
